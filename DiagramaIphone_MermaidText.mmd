@@ -7,19 +7,25 @@ classDiagram
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
+        -musicaAtual: String
     }
 
     class AparelhoTelefonico {
         +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
+        -numeroAtual: String
     }
 
     class NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
+        -paginaAtual: String
     }
 
     class iPhone {
+        -musicaAtual: String
+        -numeroAtual: String
+        -paginaAtual: String
     }

@@ -1,2 +1,7 @@
-package interfaces;public interface AparelhoTelefonicoInterface {
+package interfaces;
+
+public interface AparelhoTelefonicoInterface {
+    void ligar(String numero);
+    void atender();
+    void iniciarCorreioVoz();
 }

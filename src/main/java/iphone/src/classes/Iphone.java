@@ -1,22 +1,26 @@
+package classes;
+
 import interfaces.AparelhoTelefonicoInterface;
 import interfaces.NavegadorInternetInterface;
 import interfaces.ReprodutorMusicalInterface;
 
 public class Iphone  implements ReprodutorMusicalInterface, AparelhoTelefonicoInterface, NavegadorInternetInterface {
-    public static void main(String[] args) {}
+    private String musicaAtual;
+    private String paginaAtual;
 
     @Override
     public void tocar() {
-        System.out.println("Reproduzindo música.");
+        System.out.println("Reproduzindo música: " + musicaAtual);
     }
 
     @Override
     public void pausar() {
-        System.out.println("Música pausada.");
+        System.out.println("Música pausada: " + musicaAtual);
     }
 
     @Override
     public void selecionarMusica(String musica) {
+        this.musicaAtual = musica;
         System.out.println("Música selecionada: " + musica);
     }
 
@@ -37,6 +41,7 @@ public class Iphone  implements ReprodutorMusicalInterface, AparelhoTelefonicoIn
 
     @Override
     public void exibirPagina(String url) {
+        this.paginaAtual = url;
         System.out.println("Exibindo página: " + url);
     }
 
@@ -47,6 +52,6 @@ public class Iphone  implements ReprodutorMusicalInterface, AparelhoTelefonicoIn
 
     @Override
     public void atualizarPagina() {
-        System.out.println("Página atualizada.");
+        System.out.println("Página atualizada: " + paginaAtual);
     }
 }

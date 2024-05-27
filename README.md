@@ -18,7 +18,7 @@ The objective of this challenge is to develop UML modeling and an application th
 
 ---
 
-# Desafio de modelagem UML e diagramação de Classes Lançamento Iphone 2017
+# Desafio de modelagem UML e diagramação de Classes Lançamento classes.Iphone 2017
 
 O objetivo deste desafio é desenvolver uma modelagem UML e uma aplicação que implemente o diagrama de classes desenhado.
 
