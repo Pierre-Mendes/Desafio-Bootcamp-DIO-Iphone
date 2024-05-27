@@ -10,7 +10,10 @@
 ## Stack
 
 **Back-end:** Java
+
 **UML:** Mermaid Chart (https://www.mermaidchart.com)
+
+---
 
 # UML modeling and class diagramming challenge iPhone Launch 2017
 
